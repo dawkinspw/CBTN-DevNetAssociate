@@ -1,5 +1,4 @@
-import json
-import os
+import json, os
 
 # User realpath to reliably use the file in the same directory as the script
 # Source: https://stackoverflow.com/a/4060259
