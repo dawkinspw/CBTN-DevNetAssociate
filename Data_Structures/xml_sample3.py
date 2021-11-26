@@ -12,5 +12,5 @@ stream = open(os.path.join(__location__, 'sample.xml'), 'r')
 # Parse the XML file into an 'OrderedDic'
 xml = xmltodict.parse(stream.read())
 
-for e in xml:
+for e in xml["People"]["Person"]:
     print(e)
