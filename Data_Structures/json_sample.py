@@ -6,11 +6,6 @@ import os
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
-# JSON object load
-jsonfile = open(os.path.join(__location__, 'sample.json'), 'r')
-
-jsonstr = jsonfile.read()
-
-jsonobj = json.loads(jsonstr)
+jsonobj = json.load(open(os.path.join(__location__, 'sample.json'), 'r'))
 
 print(jsonobj)
