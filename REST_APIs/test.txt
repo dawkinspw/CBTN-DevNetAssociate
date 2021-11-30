@@ -1,1 +1,1 @@
-https://swapi.co/api/people/1/
+https://jsonplaceholder.typicode.com/todos/1
